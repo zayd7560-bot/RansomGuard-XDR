@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0B1120;
+    color:white;
+    font-family:"Segoe UI",sans-serif;
+}
+
+@keyframes floating{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-18px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+.floating{
+
+animation:floating 4s ease-in-out infinite;
+
+}

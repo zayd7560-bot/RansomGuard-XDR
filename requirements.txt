@@ -1,0 +1,10 @@
+# Ransomware Detection System - Required Libraries
+# نظام كشف الفدية - المكتبات المطلوبة
+#
+# Install with: pip install -r requirements.txt
+
+watchdog>=3.0.0    # مراقبة الملفات
+psutil>=5.9.0      # معلومات العمليات (processes)
+
+# tkinter - مدمجة مع Python، مش محتاج تنزلها
+# (Built-in with Python - no installation needed)
