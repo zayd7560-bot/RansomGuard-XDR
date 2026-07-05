@@ -109,7 +109,7 @@ export default function Profile() {
              user.profile_image ?
 
              <img
-               src={`http://127.0.0.1:8000/uploads/${user.profile_image}`}
+               src={`https://ransomguard-xdr-production.up.railway.app/uploads/${user.profile_image}`}
                className="w-24 h-24 rounded-full object-cover border-4 border-blue-500"
              />
 

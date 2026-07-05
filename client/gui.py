@@ -48,7 +48,7 @@ COLORS = {
     "btn_exit":       "#2D1B69",   # زر الخروج
 }
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://ransomguard-xdr-production.up.railway.app"
 JWT_TOKEN = None
 
 # الخطوط

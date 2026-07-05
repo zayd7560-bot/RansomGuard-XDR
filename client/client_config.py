@@ -1,6 +1,6 @@
 import os
 
-BASE_API_URL = "http://127.0.0.1:8000"
+BASE_API_URL = "https://ransomguard-xdr-production.up.railway.app"
 
 CLIENT_VERSION = "1.0.0"
 
