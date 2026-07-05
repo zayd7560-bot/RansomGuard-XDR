@@ -27,6 +27,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://ransom-guard-xdr.vercel.app",
+        "https://ransom-guard-p9h1p86vj-ransomguard-xdr.vercel.app",
+        "https://ransom-guard-rajvkq6x3-ransomguard-xdr.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
